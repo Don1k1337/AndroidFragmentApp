@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_student1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:text="Danil"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ahmad"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="David"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Marat"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student8"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Zein"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Aidin"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Aisulu"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Benjamin"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_student2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Azamat"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_student1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <TextView
+        android:id="@+id/textView_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT-118"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
